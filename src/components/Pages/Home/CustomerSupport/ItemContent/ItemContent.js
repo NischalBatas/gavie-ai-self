@@ -5,7 +5,7 @@ const ItemContent = () => {
   return (
     <div className='inside_sidespace main_container grid sm:grid-cols-2 lg:grid-cols-3 gap-6  pt-[72px]'>
         <div>
-            <Image width={391.67} height={463.61} src='/images/content/7.png' alt='Item support'/>
+            <Image className='cursor-pointer transition ease-in-out hover:scale-110' width={391.67} height={463.61} src='/images/content/7.png' alt='Item support'/>
             <Image className='mt-[50px]' width={56} height={56} src='/images/icon/3.svg' alt='Item support'/>
             <div className='max-w-[391px]'>
             <div className='mt-[32px]'>
@@ -18,7 +18,7 @@ const ItemContent = () => {
         </div>
 
         <div>
-            <Image width={391.67} height={463.61} src='/images/content/5.png' alt='Item support'/>
+            <Image className='cursor-pointer transition ease-in-out hover:scale-110' width={391.67} height={463.61} src='/images/content/5.png' alt='Item support'/>
             <Image className='mt-[50px]' width={56} height={56} src='/images/icon/2.svg' alt='Item support'/>
             <div className='max-w-[391px]'>
             <div className='mt-[32px]'>
@@ -31,7 +31,7 @@ const ItemContent = () => {
         </div>
 
         <div>
-            <Image width={391.67} height={463.61} src='/images/content/6.png' alt='Item support'/>
+            <Image className='cursor-pointer transition ease-in-out hover:scale-110' width={391.67} height={463.61} src='/images/content/6.png' alt='Item support'/>
             <Image className='mt-[50px]' width={56} height={56} src='/images/icon/1.svg' alt='Item support'/>
             <div className='max-w-[391px]'>
             <div className='mt-[32px]'>
