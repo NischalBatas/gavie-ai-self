@@ -115,7 +115,7 @@ h3 {
 
 .AccordionItem[data-state='open'] {
   /* background-color: #1b1b1b; */
-
+  cursor: pointer;
   padding: 0.8rem 1rem;
   border-radius: 16px;
   
