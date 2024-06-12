@@ -4,7 +4,7 @@ import FaqContent from './Content/FaqContent'
 
 const Faq = () => {
   return (
-    <div className="relative flex flex-col justify-center items-center w-full mt-[150px]">
+    <div id='faqs' className="relative flex flex-col justify-center items-center w-full mt-[150px]">
     {/* <div className="second_background"></div> */}
 
     <div>

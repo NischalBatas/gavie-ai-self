@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import './navbar.css'
 
 const NavbarMain = () => {
@@ -10,6 +10,33 @@ const NavbarMain = () => {
     const toggleMenu = () => {
       setIsOpen(!isOpen);
     };
+
+    useEffect(() => {
+      const handleScroll = (event) => {
+          event.preventDefault();
+          const targetId = event.currentTarget.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+
+          if (targetElement) {
+              window.scrollTo({
+                  top: targetElement.offsetTop - 60, // Adjust this value to account for the fixed navigation height
+                  behavior: 'smooth'
+              });
+          }
+      };
+
+      const links = document.querySelectorAll('a[href^="#"]');
+      links.forEach(link => {
+          link.addEventListener('click', handleScroll);
+      });
+
+      return () => {
+          links.forEach(link => {
+              link.removeEventListener('click', handleScroll);
+          });
+      };
+  }, []);
+
   return (
     <nav className="bg-black shadow-lg pt-[10px]">
     <div className="main_container mx-auto px-4 pt-[16px]">
@@ -22,10 +49,10 @@ const NavbarMain = () => {
           </div>
         </div>
         <div className="hidden md:flex items-center space-x-1">
-          <Link href="#" className="py-5 px-3 font-medium text-[16px] text-white">Why Gavie</Link>
-          <Link href="#" className="py-5 px-3 font-medium text-[16px] text-white">Features</Link>
-          <Link href="#" className="py-5 px-3 font-medium text-[16px] text-white">Insights</Link>
-          <Link href="#" className="py-5 px-3 font-medium text-[16px] text-white">FAQ</Link>
+          <Link href="#whygavie" className="py-5 px-3 font-medium text-[16px] text-white">Why Gavie</Link>
+          <Link href="#features" className="py-5 px-3 font-medium text-[16px] text-white">Features</Link>
+          <Link href="#insights" className="py-5 px-3 font-medium text-[16px] text-white">Insights</Link>
+          <Link href="#faqs" className="py-5 px-3 font-medium text-[16px] text-white">FAQ</Link>
         </div>
         <div className="hidden md:flex items-center space-x-1">
         <button  className="text-[16px] font-medium navbar_get_btn">Book A Free Demo</button>

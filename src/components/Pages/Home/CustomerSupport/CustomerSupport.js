@@ -3,7 +3,7 @@ import "../CSS/style.css";
 import ItemContent from './ItemContent/ItemContent';
 const CustomerSupport = () => {
   return (
-    <div className="relative flex flex-col justify-center items-center w-full mt-[150px]">
+    <div id='features' className="relative flex flex-col justify-center items-center w-full mt-[150px]">
       <div className="second_background"></div>
 
       <div>

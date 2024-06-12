@@ -3,7 +3,7 @@ import "../CSS/style.css";
 import Marketing from "./Content/Marketing";
 const WhyGavie = () => {
   return (
-    <div className="relative flex flex-col justify-center items-center w-full mt-[150px]">
+    <div id="whygavie" className="relative flex flex-col justify-center items-center w-full mt-[150px]">
       <div className="second_background"></div>
 
       <div>
