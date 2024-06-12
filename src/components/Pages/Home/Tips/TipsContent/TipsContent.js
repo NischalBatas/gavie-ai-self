@@ -6,7 +6,7 @@ const TipsContent = () => {
     <div className="inside_sidespace main_container grid sm:grid-cols-2 lg:grid-cols-3 gap-6  pt-[72px]">
       <div className="tips_main_items p-[16px] md:p-[24px]">
         <div>
-          <Image
+          <Image className="cursor-pointer transition ease-in-out hover:scale-110"
             width={490}
             height={490}
             src="/images/content/9.png"
@@ -36,7 +36,7 @@ const TipsContent = () => {
 
       <div className="tips_main_items p-[16px] md:p-[24px]">
         <div>
-          <Image
+          <Image className="cursor-pointer transition ease-in-out hover:scale-110"
             width={490}
             height={490}
             src="/images/content/10.png"
@@ -67,7 +67,7 @@ const TipsContent = () => {
 
       <div className="tips_main_items p-[16px] md:p-[24px]">
         <div>
-          <Image
+          <Image className="cursor-pointer transition ease-in-out hover:scale-110"
             width={490}
             height={490}
             src="/images/content/8.png"
