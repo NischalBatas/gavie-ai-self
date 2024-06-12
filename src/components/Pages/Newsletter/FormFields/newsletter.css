@@ -1,0 +1,154 @@
+/* .newsletter_main_content{
+  background-image: url('/images/content/bg.svg');
+  z-index: -1;
+
+}
+
+@media only screen and (min-width:3250px){
+  .newsletter_main_content{
+    background-size: cover;
+    background-image: url('/Image/newsletter/mobile_bg.png');
+    z-index: -1;
+  }
+} */
+
+/* reset */
+input,
+textarea,
+button {
+  all: unset;
+  box-sizing: border-box;
+}
+
+.FormRoot2 {
+    width: 100%;
+    gap: 28px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.FormField2 {
+  display: grid;
+  margin-bottom: 6px;
+}
+
+.FormLabel {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  color: white;
+}
+
+.FormMessage {
+  font-size: 13px;
+  color: white;
+  opacity: 0.8;
+}
+
+.Input,
+.Textarea {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 4px; */
+
+  font-size: 15px;
+  color: white;
+  border-bottom: 1px solid #2a2a2c;
+  /* background-color: var(--black-a5); */
+  /* box-shadow: 0 0 0 1px white; */
+}
+.Input:hover,
+.Textarea:hover {
+    border-bottom: 1px solid #fff;
+  /* box-shadow: 0 0 0 1px white; */
+}
+.Input:focus,
+.Textarea:focus {
+  /* box-shadow: 0 0 0 2px white; */
+  border-bottom: 1px solid #fff;
+}
+
+
+.Input::selection,
+.Textarea::selection {
+  background-color: var(--black-a9);
+  color: white;
+}
+
+.Input {
+  padding: 0 10px;
+  height: 35px;
+  line-height: 1;
+}
+
+.Textarea {
+  resize: none;
+  padding: 10px;
+  text-wrap: wrap;
+}
+
+.Button4 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 500;
+  padding:12px 10px;
+  /* max-width: 405px; */
+  width: 95%;
+  /* border: 1px solid transparent; */
+  /* background: linear-gradient(180deg, #E16A6A -84.37%, #5400FF 175%); */
+  /* box-shadow: 0 2px 10px var(--black-a7); */
+  background: linear-gradient(180deg, rgb(149, 117, 255) 18%, rgb(64, 38, 150) 90%, rgb(149, 117, 255) 100%);
+
+}
+.Button4:hover {
+  /* border: 1px solid #6083f3; */
+  background-color: #fff;
+  color: #ffffff;
+}
+.Button4:focus {
+  box-shadow: 0 0 0 2px white;
+}
+
+
+
+ 
+
+
+
+
+/* For phone form */
+.special-label{
+  display: none !important;
+}
+
+.react-tel-input .form-control {
+  font-size: 16px;
+  background: #000 !important;
+  color: #fff !important;
+  border: none !important;
+  border-bottom: 1px solid #2a2a2c !important;
+  border-radius: 0 !important;
+  width: 100% !important;
+  outline: none;
+  padding: 15.5px 14px 15.5px 58px !important;
+  transition: box-shadow ease .25s, border-color ease .25s;
+}
+
+.react-tel-input .flag-dropdown{
+  z-index: 2;
+  /* background: white; */
+}
+
+.react-tel-input .form-control:focus {
+  /* border-color: #ffff; */
+  box-shadow: none !important;
+  border-bottom: 1px solid #ffff !important;
+}
