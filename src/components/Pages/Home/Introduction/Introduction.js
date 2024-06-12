@@ -8,7 +8,7 @@ const Introduction = () => {
         <span className="bg-black border text-[16px] border-[#41424e] rounded-[32px] font-semibold py-[8px] px-[20px]">Introducing GAVIE AI</span>
       </div>
       <div className="max-w-[905.95px] mt-[36px]">
-        <p className="intro_home_main text-wrap text-[36px] md:text-[44px] lg:text-[58px] xl:text-[64px] tracking-[-2px] lg:tracking-[-4px] leading-[110%] text-center">AI powered Intelligent Conversations</p>
+        <p className="intro_home_main text-wrap text-[36px] md:text-[44px] lg:text-[58px] xl:text-[64px] tracking-[-2px] lg:tracking-[-4px] leading-[120%] text-center">AI powered Intelligent Conversations</p>
       </div>
       <div className="max-w-[696px] mt-[15px]">
         <p className="text-[#d0c2ff] text-[20px]  text-center leading-[170%]">
