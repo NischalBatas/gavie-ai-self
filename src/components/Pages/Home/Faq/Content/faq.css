@@ -63,7 +63,7 @@ h3 {
   background-color: transparent;
   /* padding: 0 20px; */
   width: 100%;
-  height: 60px;
+  min-height: 60px;
   flex: 1;
   display: flex;
   align-items: center;
@@ -85,10 +85,10 @@ h3 {
 
 .AccordionContent {
   overflow: hidden;
- 
+  margin: 0.5rem 0 0.8rem;
   /* padding:0 0.5rem; */
   /* border-radius: 6px; */
-  color: #aeaeae;
+  color: #bfbfbf;
   /* background-color: var(--mauve-2); */
   /* border-bottom: 1px solid #363636; */
 }
@@ -101,7 +101,7 @@ h3 {
 }
 
 .AccordionContentText {
-  padding: 0.4rem 0.8rem;
+  padding: 0.4rem 0;
 }
 
 .FaAngleDown {
@@ -116,7 +116,7 @@ h3 {
 .AccordionItem[data-state='open'] {
   /* background-color: #1b1b1b; */
   cursor: pointer;
-  padding: 0.8rem 1rem;
+  padding: 1rem 1rem;
   border-radius: 16px;
   
 }
@@ -134,7 +134,7 @@ h3 {
 }
 
 .AccordionItem[data-state='open'] .AccordionContentText {
-  padding: 0 0.2rem;
+  padding: 0 0;
 }
 
 
