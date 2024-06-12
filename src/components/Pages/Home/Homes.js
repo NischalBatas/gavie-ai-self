@@ -7,6 +7,7 @@ import CustomerSupport from './CustomerSupport/CustomerSupport'
 import Tips from './Tips/Tips'
 import Join from './Join/Join'
 import Footer from './Footer/Footer'
+import Faq from './Faq/Faq'
 const Homes = () => {
   return (
     <div className='mt-[120px]'>
@@ -15,6 +16,7 @@ const Homes = () => {
         <WhyGavie/>
         <CustomerSupport/>
         <Tips/>
+        <Faq/>
         <Join/>
         <Footer/>
     </div>
