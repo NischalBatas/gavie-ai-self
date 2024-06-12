@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --font-myFont: 'My Custom Font', sans-serif; /* Define the custom font variable */
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,17 +19,91 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #fff;
+  background-color: #010313;
+  overflow-x: hidden;
+
+}
+
+.intro_home_main{
+  font-family: var(--font-myFont);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2.5px;
+  background: #5677e1;
+  transform-origin: 0%;
+  z-index: 9999;
+}
+
+.scroll_top {
+  background-color: #4f91ff !important;
+  right: 40px;
+  bottom: 40px;
+  position: fixed;
+  z-index: 2;
+  cursor: pointer;
+  border-radius: 50% !important;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 9px 25px 0 rgba(132, 128, 177, 0.28);
+  border: none;
+}
+
+.scroll_top svg {
+  margin: auto;
+  fill: #fff !important;
+}
+
+.main_container {
+  max-width: 1260px;
+  margin: 0 auto;
+  width: 100%;
+}
+.inside_sidespace {
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+}
+
+.container_sidespace {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+@media only screen and (max-width: 1650px) {
+  .container_sidespace {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .container_sidespace {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .container_sidespace {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  .container_sidespace {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

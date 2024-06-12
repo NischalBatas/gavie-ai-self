@@ -1,0 +1,53 @@
+.navbar_get_btn{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 12px 32px;
+    position: relative;
+    text-decoration: none;
+   background: linear-gradient(rgb(95, 53, 227) 0%, rgb(132, 96, 247) 100%) rgba(0, 0, 0, 0);
+    border-radius: 28px;
+    border: 1.5px solid rgb(138, 102, 255);
+}
+
+.intro_get_btn1{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 12px 32px;
+    position: relative;
+    text-decoration: none;
+   background: linear-gradient(rgb(95, 53, 227) 0%, rgb(132, 96, 247) 100%) rgba(0, 0, 0, 0);
+    border-radius: 28px;
+    border: 1.5px solid rgb(138, 102, 255);
+}
+
+.intro_get_btn2{
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 12px 32px;
+    position: relative;
+    text-decoration: none;
+   background: white;
+    border-radius: 28px;
+    border: 1.5px solid white;
+}
