@@ -13,7 +13,7 @@ const WhyGavie = () => {
           </span>
         </div>
         <div className="max-w-[550px] mt-[36px]">
-          <p className="intro_home_main text-wrap text-[36px] md:text-[49px] lg:tracking-[-1px] leading-[120%] text-center">
+          <p className="intro_home_main inside_sidespace text-wrap text-[32px] md:text-[49px] lg:tracking-[-1px] leading-[120%] text-center">
             Effortlessly Scale Your Marketing Efforts
           </p>
         </div>

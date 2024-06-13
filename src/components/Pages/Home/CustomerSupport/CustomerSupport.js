@@ -13,7 +13,7 @@ const CustomerSupport = () => {
           </span>
         </div>
         <div className="max-w-[690px] mt-[36px]">
-          <p className="intro_home_main text-wrap text-[36px] md:text-[49px] lg:tracking-[-1px] leading-[120%] text-center">
+          <p className="intro_home_main text-wrap inside_sidespace text-[32px] md:text-[49px] lg:tracking-[-1px] leading-[120%] text-center">
           All-in-One Solution for Customer Support Automation
           </p>
         </div>

@@ -11,12 +11,12 @@ const Introduction = () => {
         </span>
       </div>
       <div className="max-w-[905.95px] mt-[36px]">
-        <p className="intro_home_main text-wrap text-[36px] md:text-[44px] lg:text-[58px] xl:text-[64px] tracking-[-2px] lg:tracking-[-4px] leading-[120%] text-center">
+        <p className="intro_home_main text-wrap text-[32px] md:text-[44px] lg:text-[58px] xl:text-[64px] tracking-[-2px] lg:tracking-[-4px] leading-[120%] text-center">
           AI powered Intelligent Conversations
         </p>
       </div>
       <div className="max-w-[696px] mt-[15px]">
-        <p className="text-[#d0c2ff] text-[20px]  text-center leading-[170%]">
+        <p className="text-[#d0c2ff] text-[16px] md:text-[20px]  text-center leading-[170%]">
           We Help enterprises leverage AI for customer support. Build engaging
           conversational agents, automate interactions, integrate CRM tools and
           create custom journeys powered by state-of-the-art LLM Models
@@ -25,13 +25,13 @@ const Introduction = () => {
 
       <div className="flex gap-4 mt-[28px]">
         <Link href="/contact-us">
-          <button className="text-[16px] font-medium intro_get_btn1">
+          <button className="text-[14px] md:text-[16px] font-medium intro_get_btn1">
             Book A Free Demo
           </button>
         </Link>
 
         <Link href="/contact-us">
-        <button className="text-[16px] font-medium text-[#000] intro_get_btn2">
+        <button className="text-[14px] md:text-[16px] font-medium text-[#000] intro_get_btn2">
           Contact Us
         </button>
         </Link>

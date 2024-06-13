@@ -4,12 +4,12 @@ import './style.css'
 import Link from "next/link";
 const Join = () => {
   return (
-    <div className="third_background mt-[150px]">
+    <div className="third_background mt-[100px] md:mt-[150px] overflow-hidden">
       {/* <div className=""></div> */}
       <div className="main_container inside_sidespace flex flex-col items-center text-center w-full h-full justify-end">
         <div className="max-w-[820px]">
-          <span className="text-[72px] tracking-[-2.5px] font-semibold">Join Gavie.AI</span>
-          <p className="mt-2 text-[#FFFFFFBF] text-[20px]">
+          <span className="text-[42px] md:text-[72px] tracking-[-2.5px] font-semibold">Join Gavie.AI</span>
+          <p className="mt-2 text-[#FFFFFFBF] text-[16px] md:text-[20px]">
             We Help enterprises leverage AI for customer support. Build engaging
             conversational agents, automate interactions, integrate CRM tools
             and create custom journeys powered by state-of-the-art LLM Models

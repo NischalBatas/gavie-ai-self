@@ -51,3 +51,13 @@
     border-radius: 28px;
     border: 1.5px solid white;
 }
+
+@media only screen and (max-width:650px){
+    .intro_get_btn1,
+    .intro_get_btn2{
+        
+        padding: 8px 20px;
+
+    
+    }
+}
