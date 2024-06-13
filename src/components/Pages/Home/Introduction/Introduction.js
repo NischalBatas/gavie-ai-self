@@ -15,7 +15,7 @@ const Introduction = () => {
           AI powered Intelligent Conversations
         </p>
       </div>
-      <div className="max-w-[696px] mt-[15px]">
+      <div className="max-w-[696px] mt-[15px] px-2">
         <p className="text-[#d0c2ff] text-[16px] md:text-[20px]  text-center leading-[170%]">
           We Help enterprises leverage AI for customer support. Build engaging
           conversational agents, automate interactions, integrate CRM tools and
@@ -26,7 +26,7 @@ const Introduction = () => {
       <div className="flex gap-4 mt-[28px]">
         <Link href="/contact-us">
           <button className="text-[14px] md:text-[16px] font-medium intro_get_btn1">
-            Book A Free Demo
+            Book A Free Demo``
           </button>
         </Link>
 
