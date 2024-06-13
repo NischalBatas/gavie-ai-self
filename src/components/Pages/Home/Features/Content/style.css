@@ -1,0 +1,8 @@
+.feature_main_item{
+    border: 1px solid rgba(73, 64, 112, 0.65);
+    /* align-content: center;
+    align-items: center; */
+    background: linear-gradient(180deg, #191530 0%, rgb(8, 6, 31) 100%);
+    border-radius: 16px;
+   
+}

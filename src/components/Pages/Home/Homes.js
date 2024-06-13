@@ -8,12 +8,14 @@ import Tips from './Tips/Tips'
 import Join from './Join/Join'
 import Footer from './Footer/Footer'
 import Faq from './Faq/Faq'
+import Features from './Features/Features'
 const Homes = () => {
   return (
     <div className='mt-[120px]'>
         <Introduction/>
         <DashboardImg/>
         <WhyGavie/>
+        <Features/>
         <CustomerSupport/>
         <Tips/>
         <Faq/>
