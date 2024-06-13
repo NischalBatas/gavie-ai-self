@@ -26,7 +26,7 @@ const Introduction = () => {
       <div className="flex gap-4 mt-[28px]">
         <Link href="/contact-us">
           <button className="text-[14px] md:text-[16px] font-medium intro_get_btn1">
-            Book A Free Demo``
+            Book A Free Demo
           </button>
         </Link>
 
