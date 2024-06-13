@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-
+import './style.css'
+import Link from "next/link";
 const Join = () => {
   return (
     <div className="third_background mt-[150px]">
@@ -14,9 +15,11 @@ const Join = () => {
             and create custom journeys powered by state-of-the-art LLM Models
           </p>
           <div className="flex justify-center mt-10">
+            <Link href='/contact-us'>
             <button className="text-[16px] font-medium intro_get_btn1">
              Request a free trail
             </button>
+            </Link>
           </div>
          
         </div>
