@@ -54,15 +54,15 @@ const NavbarMain = () => {
           <Link href="#insights" className="py-5 px-3 font-medium text-[16px] text-white">Insights</Link>
           <Link href="#faqs" className="py-5 px-3 font-medium text-[16px] text-white">FAQ</Link>
         </div>
-        <div className="flex items-center space-x-1">
+        <div className="hidden md:flex items-center space-x-1">
         <Link href='/contact-us'>   <button  className="text-[16px] font-medium navbar_get_btn">Start Free Trial</button>
         </Link>
         </div>
         
         <div className="md:hidden flex  gap-3 items-center">
-        {/* <div className="flex items-center space-x-1">
-        <button  className="text-[14px] font-medium navbar_get_btn">Start Free Trial</button>
-        </div> */}
+        <div className="flex items-center space-x-1">
+        <Link href='/contact-us'>      <button  className="text-[14px] font-medium navbar_get_btn">Start Free Trial</button>
+       </Link> </div>
           <button onClick={toggleMenu} className="mobile-menu-button">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
