@@ -2,7 +2,6 @@ import Content_One from '@/components/Pages/Dashboard/Content/Overview/Content_O
 import Content_Three from '@/components/Pages/Dashboard/Content/Overview/Content_Three/Content_Three'
 import Content_Two from '@/components/Pages/Dashboard/Content/Overview/Content_Two/Content_Two'
 import Overview from '@/components/Pages/Dashboard/Content/Overview/Overview'
-import Dashboard from '@/components/Pages/Dashboard/Dashboard'
 import React from 'react'
 
 const page = () => {
