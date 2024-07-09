@@ -117,8 +117,8 @@ const Marketing = () => {
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
       >
-        <motion.li variants={items}>
-          <div>
+        <motion.li variants={items} >
+          <div >
             <Image
               className="mx-auto w-[250px] md:w-[1600px] h-auto cursor-pointer transition ease-in-out hover:scale-110"
               width={800}
@@ -128,7 +128,7 @@ const Marketing = () => {
             />
             <div className="mt-4 mb-2">
               <span className="intro_home_main text-[24px] ">
-                Improved operational efficiency{" "}
+                Improved operational efficiency
               </span>
             </div>
             <p className="text-[16px] text-[#FFFFFFB3]">

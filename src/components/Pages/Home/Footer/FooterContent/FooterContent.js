@@ -7,7 +7,7 @@ const FooterContent = () => {
     <div className="flex flex-wrap lg:flex-nowrap  gap-10 justify-center lg:justify-between text-[#6d6686] text-[16px]">
       <div className="flex flex-col justify-center items-center lg:items-start lg:max-w-[308px] text-[#6d6686]">
         <Link href="/">
-          <Image width={128} height={31} src="/images/logo/logo.svg" />
+          <Image width={128} height={31} src="/images/logo/logo.svg" alt="footer_img"/>
         </Link>
         <div className="">
         <p className="text-[16px] my-4">

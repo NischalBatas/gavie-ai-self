@@ -29,7 +29,7 @@ export default function Sidebar(){
 "box-shadow": "0px -1px 0px 0px #292932 inset"
     }}>
         <div className='inline-flex items-center w-full  gap-x-2.5 rounded-[15px] px-3 py-2 text-sm font-semibold bg-[#292932] shadow-sm ring-1 ring-inset ring-[#44444F]'>
-            <Image width={36} height={36} src='/images/dashboard/dai.png' alt='user profile'/>
+            <Image width={36} height={36} src='/images/dashboard/dai.png' alt='user_profile'/>
             <div className='flex flex-col item'>
                 <p className='text-[#fafafb] text-[14px] font-semibold'>Nimesh Kuinkel</p>
                 <span className='text-[#92929D] text-[12px]'>@nimesh</span>
@@ -59,7 +59,7 @@ export default function Sidebar(){
                             <div key={index}>
                             <li><Link className='flex items-center justify-between gap-3 text-[14px] px-2 py-2' href={item.url} title={item.title}>
                             <div className='flex gap-3 items-center'>
-                            <Image className='rounded-full' width={24} height={24} src={item.image} alt={item.title}/><span>{item.title}</span>
+                            <Image className='rounded-full' width={24} height={24} src={item.image} alt="item_img"/><span>{item.title}</span>
                             </div>
                             <div><span className='bg-[#FC5A5A] text-white rounded-full text-[12px] px-1 py-1 w-[32px] h-[32px]'>{item.chat_inbox}</span></div>
                             </Link></li>

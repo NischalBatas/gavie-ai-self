@@ -7,6 +7,7 @@ import {
   container2,
   container3,
   container4,
+  container6,
   items,
 } from "@/components/Animation/Motion/MotionFramer";
 import "./style.css";
@@ -34,7 +35,7 @@ const Join = () => {
           </motion.ul>
           <motion.ul
             ref={ref}
-            variants={container3}
+            variants={container4}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
           >
@@ -49,7 +50,7 @@ const Join = () => {
           </motion.ul>
           <motion.ul
             ref={ref}
-            variants={container4}
+            variants={container6}
             initial="hidden"
             animate={isInView ? "visible" : "hidden"}
           >

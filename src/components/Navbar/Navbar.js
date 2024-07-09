@@ -45,7 +45,7 @@ const NavbarMain = () => {
         <div className="flex space-x-4">
           <div>
             <Link href='/'>
-                <Image width={128} height={31} src='/images/logo/logo.svg'/>
+                <Image priority={true} className="w-[80px] h-auto" width={128} height={31} src='/images/logo/logo.svg' alt="Navbar_logo"/>
             </Link>
           </div>
         </div>

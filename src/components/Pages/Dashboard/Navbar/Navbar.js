@@ -10,7 +10,7 @@ const Navbar = () => {
 "box-shadow": "0px -1px 0px 0px #292932 inset"
     }}>
      <div className="flex items-center w-[280px]">
-     <Image width={100} height={100} src="/images/dashboard/gavie.svg" alt="Gavie Logo" />
+     <Image className="w-[60px] h-auto" priority={true} width={100} height={100} src="/images/dashboard/gavie.svg" alt="company_logo" />
      </div>
       <div className="flex items-center justify-between w-full">
         <SearchBar />

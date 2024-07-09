@@ -1,9 +1,23 @@
+"use client"
+import React, { useRef } from "react";
+import { motion } from "framer-motion";
+import { useInView } from "framer-motion";
+import {  container, container2,container3, container4, container5, container6, container7, container8, items } from "@/components/Animation/Motion/MotionFramer";
 import Image from 'next/image'
-import React from 'react'
 
 const ItemContent = () => {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
   return (
     <div className='inside_sidespace main_container grid sm:grid-cols-2 lg:grid-cols-3 gap-6  pt-[72px]'>
+        <motion.ul
+        ref={ref}
+    
+        variants={container6}
+        initial="hidden"
+        animate={isInView ? "visible" : "hidden"}
+      >
+        <motion.li variants={items}>
         <div>
             <Image className='cursor-pointer transition ease-in-out hover:scale-110' width={391.67} height={463.61} src='/images/content/7.png' alt='Item support'/>
             <Image className='mt-[50px]' width={56} height={56} src='/images/icon/3.svg' alt='Item support'/>
@@ -16,7 +30,16 @@ const ItemContent = () => {
             </div>
             </div>
         </div>
-
+        </motion.li>
+        </motion.ul>
+        <motion.ul
+        ref={ref}
+    
+        variants={container7}
+        initial="hidden"
+        animate={isInView ? "visible" : "hidden"}
+      >
+        <motion.li variants={items}>
         <div>
             <Image className='cursor-pointer transition ease-in-out hover:scale-110' width={391.67} height={463.61} src='/images/content/5.png' alt='Item support'/>
             <Image className='mt-[50px]' width={56} height={56} src='/images/icon/2.svg' alt='Item support'/>
@@ -29,7 +52,17 @@ const ItemContent = () => {
             </div>
             </div>
         </div>
+        </motion.li>
+        </motion.ul>
 
+        <motion.ul
+        ref={ref}
+    
+        variants={container8}
+        initial="hidden"
+        animate={isInView ? "visible" : "hidden"}
+      >
+        <motion.li variants={items}>
         <div>
             <Image className='cursor-pointer transition ease-in-out hover:scale-110' width={391.67} height={463.61} src='/images/content/6.png' alt='Item support'/>
             <Image className='mt-[50px]' width={56} height={56} src='/images/icon/1.svg' alt='Item support'/>
@@ -42,6 +75,8 @@ const ItemContent = () => {
             </div>
             </div>
         </div>
+        </motion.li>
+        </motion.ul>
     </div>
   )
 }

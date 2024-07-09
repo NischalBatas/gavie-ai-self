@@ -2,6 +2,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavbarMain from "@/components/Navbar/Navbar";
 import localFont from 'next/font/local'
+import SegementKey from "@/components/segment/SegementKey";
+import SegementRoute from "@/components/segment/SegementRoute";
 
 const inter = Inter({ subsets: ["latin"] });
 export const myFont = localFont({
@@ -19,9 +21,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+         <head>
+  
+        {<SegementKey/>}
+      </head>
       <body className={inter.className}>
         <div className={myFont.variable}>
+        <SegementRoute>
           {children}
+          </SegementRoute>
         </div></body>
     </html>
   );

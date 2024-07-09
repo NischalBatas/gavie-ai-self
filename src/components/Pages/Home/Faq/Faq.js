@@ -7,6 +7,7 @@ import {
   container2,
   container3,
   container4,
+  container6,
   items,
 } from "@/components/Animation/Motion/MotionFramer";
 
@@ -39,7 +40,7 @@ const Faq = () => {
         </motion.ul>
         <motion.ul
           ref={ref}
-          variants={container2}
+          variants={container3}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
         >
@@ -55,7 +56,7 @@ const Faq = () => {
 
       <motion.ul
         ref={ref}
-        variants={container4}
+        variants={container6}
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
       >

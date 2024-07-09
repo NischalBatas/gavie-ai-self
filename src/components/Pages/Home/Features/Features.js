@@ -31,7 +31,7 @@ const Features = () => {
       <motion.ul
         ref={ref}
     
-        variants={container3}
+        variants={container4}
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
       >
