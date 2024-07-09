@@ -11,7 +11,7 @@ const CusInfo = () => {
 
       <div className="flex justify-between flex-wrap gap-3 gap-y-6 mt-6">
         <div className="flex gap-3 items-center">
-          <Image width={70} height={70} src="/images/dashboard/8.svg" />
+          <Image width={70} height={70} src="/images/dashboard/8.svg" alt="user_graph"/>
           <div className="flex flex-col">
             <p className="text-[#fafafb] text-[18px] font-semibold">30,254</p>
             <span className="text-[#92929D] text-[14px]">Questions Asked</span>
@@ -19,7 +19,7 @@ const CusInfo = () => {
         </div>
 
         <div className="flex gap-3 items-center">
-          <Image width={70} height={70} src="/images/dashboard/9.svg" />
+          <Image width={70} height={70} src="/images/dashboard/9.svg" alt="user_graph"/>
           <div className="flex flex-col">
             <p className="text-[#fafafb] text-[18px] font-semibold">8,665</p>
             <span className="text-[#92929D] text-[14px]">Calls</span>
@@ -27,7 +27,7 @@ const CusInfo = () => {
         </div>
 
         <div className="flex gap-3 items-center">
-          <Image width={70} height={70} src="/images/dashboard/10.svg" />
+          <Image width={70} height={70} src="/images/dashboard/10.svg" alt="user_graph"/>
           <div className="flex flex-col">
             <p className="text-[#fafafb] text-[18px] font-semibold">1,554</p>
             <span className="text-[#92929D] text-[14px]">Tickets</span>

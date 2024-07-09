@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import './navbar.css'
 import { usePathname } from "next/navigation";
-
+import { FaBarsStaggered } from "react-icons/fa6";
 const NavbarMain = () => {
     const [isOpen, setIsOpen] = useState(false);
     const pathname=usePathname()
@@ -45,7 +45,7 @@ const NavbarMain = () => {
         <div className="flex space-x-4">
           <div>
             <Link href='/'>
-                <Image priority={true} className="w-[80px] h-auto" width={128} height={31} src='/images/logo/logo.svg' alt="Navbar_logo"/>
+                <Image priority={true} className="w-[128px] h-auto" width={128} height={31} src='/images/logo/logo.svg' alt="Navbar_logo"/>
             </Link>
           </div>
         </div>
@@ -68,12 +68,11 @@ const NavbarMain = () => {
        </Link> */}
         </div>
           <button onClick={toggleMenu} className="mobile-menu-button">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-            </svg>
+          <FaBarsStaggered />
           </button>
         </div>
          :''}
+         
       </div>
     </div>
     <div className={`mobile-menu md:hidden ${isOpen ? 'block' : 'hidden'}`}>

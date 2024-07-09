@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 import { IoMdArrowDropdown } from "react-icons/io";
 
@@ -30,7 +31,7 @@ const Dropdown = () => {
           aria-haspopup="true"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <Image className='rounded-full' width={32} height={50} src='/images/dashboard/dai.png' alt='user profile'/>
+          <Image className='rounded-full' width={32} height={50} src='/images/dashboard/dai.png' alt='user_profile'/>
           <IoMdArrowDropdown className='text-[24px]'/>
         </button>
       </div>
@@ -43,27 +44,27 @@ const Dropdown = () => {
           aria-labelledby="options-menu"
         >
           <div className="py-1" role="none">
-            <a
+            <Link
               href="#"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
               role="menuitem"
             >
               Account settings
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
               role="menuitem"
             >
               Support
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
               role="menuitem"
             >
               License
-            </a>
+            </Link>
             <form method="POST" action="#" role="none">
               <button
                 type="submit"

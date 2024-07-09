@@ -4,9 +4,11 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="px-1 md:px-2">
-        <NavbarMain />
-      <Homes/>
+    <div className="">
+      <NavbarMain />
+      <div className="px-1 md:px-2">
+      <Homes />
+      </div>
     </div>
   );
 };
