@@ -72,9 +72,9 @@ const Introduction = () => {
           </button>
         </Link>
 
-        <Link href="/contact-us">
+        <Link href="/dashboard">
           <button className="text-[14px] md:text-[16px] font-medium text-[#000] intro_get_btn2">
-            Contact Us
+            Dashboard
           </button>
         </Link>
       </div>
