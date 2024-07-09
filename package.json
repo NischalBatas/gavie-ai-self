@@ -9,10 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@analytics/segment": "^2.1.0",
     "@gsap/react": "^2.1.1",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-form": "^0.0.3",
     "@radix-ui/themes": "^3.0.5",
+    "@segment/snippet": "^5.2.1",
     "@splidejs/react-splide": "^0.7.12",
     "@splidejs/splide": "^4.1.4",
     "date-fns": "^3.6.0",
