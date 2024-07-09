@@ -9,7 +9,7 @@ const ProtectedLayout = ({ children }) => {
     <>
       <ProgressBar />
       {/* {pathname !=='/dashboard'  ? <NavbarMain/> :''} */}
-      <NavbarMain />
+    
       {children}
 
       <ScrollToTops />
