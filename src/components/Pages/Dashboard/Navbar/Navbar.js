@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center justify-between w-full">
         <SearchBar />
-        <Link href='/'>Home page</Link>
+      
         <Menus />
       </div>
     </div>
