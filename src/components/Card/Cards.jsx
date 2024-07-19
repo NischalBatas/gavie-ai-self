@@ -19,7 +19,7 @@ const CardsItems = ({i,itemProject, title, description, src, url, color, progres
     <div ref={container} className={styles.cardContainer}>
          <motion.div 
         style={{ scale, top:`calc(-5vh + ${i * 25}px)`}} 
-        className='card flex items-start flex-wrap md:flex-nowrap justify-center md:justify-between gap-6 lg:gap-10 feature_main_item py-[50px] px-[32px] md:py-[96px] md:px-[72px] '>
+        className={`${i%2 ==0 ? '': 'flex-row-reverse'}  card flex items-start flex-wrap md:flex-nowrap justify-center md:justify-between gap-6 lg:gap-10 feature_main_item py-[50px] px-[32px] md:py-[96px] md:px-[72px] `}>
             <div className='max-w-[475px] flex flex-col gap-[16px] md:mt-3'>
                 <span className='text-[28px] md:text-[36px] font-semibold'>{itemProject.title}</span>
                 <p className='text-[16px] md:text-[18px] text-[#ffffffb3]'>{itemProject.description}</p>
