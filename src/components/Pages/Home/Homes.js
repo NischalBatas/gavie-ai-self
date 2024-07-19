@@ -9,6 +9,7 @@ import Join from "./Join/Join";
 import Footer from "./Footer/Footer";
 import Faq from "./Faq/Faq";
 import Features from "./Features/Features";
+import Card from "./Card/Card";
 
 const Homes = () => {
 
@@ -18,7 +19,9 @@ const Homes = () => {
       <Introduction />
       <DashboardImg />
       <WhyGavie />
-      <Features />
+      {/* <Features /> */}
+      <Card/>
+
       <CustomerSupport />
       <Tips />
       <Faq />

@@ -10,7 +10,7 @@ const Features = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   return (
-    <div id='featureeffort' className="relative flex flex-col justify-center items-center w-full mt-[150px]">
+    <div id='featureeffort' className="relative flex flex-col justify-center items-center w-full ">
     <div className='inside_sidespace'>
     <motion.ul
         ref={ref}
@@ -20,7 +20,7 @@ const Features = () => {
         animate={isInView ? "visible" : "hidden"}
       >
         <motion.li variants={items}>
-      <div className="mt-[100px] flex flex-col justify-center items-center w-full">
+      <div className="mt-[10px] flex flex-col justify-center items-center w-full">
         <span className=" border text-[16px] border-[#ffffff] rounded-[32px] font-semibold py-[8px] px-[20px]">
         FEATURES
         </span>
@@ -45,7 +45,7 @@ const Features = () => {
       </motion.ul>
     </div>
 
-    <FeatureItem/>
+    {/* <FeatureItem/> */}
  
 
   </div>
