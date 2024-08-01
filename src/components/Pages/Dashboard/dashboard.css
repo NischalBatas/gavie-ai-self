@@ -1,8 +1,8 @@
-body {
+/* body {
     color: #fff;
     background: #111315;
     overflow: hidden;
-  }
+  } */
 
 .main-container3{
     max-width: 1950px;
@@ -10,9 +10,9 @@ body {
     width: 100%;
   }
   
-  .height_content{
+  /* .height_content{
     height: calc(100vh - 68px)
-  }
+  } */
 
   textarea:focus, input:focus{
     outline: none;

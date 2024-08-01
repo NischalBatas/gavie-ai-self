@@ -7,7 +7,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className=''>
+    <div className='overflow-hidden' style={{height: "calc(100vh - 68px)"}}>
        <Overview/>
        <Content_One/>
        <Content_Two/>

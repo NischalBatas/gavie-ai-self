@@ -64,13 +64,13 @@ body {
   left: 0;
   right: 0;
   height: 2.5px;
-  background: #3d2398;
+  background: #653ce6;
   transform-origin: 0%;
   z-index: 9999;
 }
 
 .scroll_top {
-  background-color: #3d2398 !important;
+  background-color: #653ce6 !important;
   right: 40px;
   bottom: 40px;
   position: fixed;
