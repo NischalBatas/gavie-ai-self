@@ -76,10 +76,10 @@ const NavbarMain = () => {
       </div>
     </div>
     <div className={`mobile-menu md:hidden ${isOpen ? 'block' : 'hidden'}`}>
-    <Link href="#" className="py-5 px-3 font-medium text-[16px] block text-white">Why Gavie</Link>
-          <Link href="#" className="py-3 px-3 font-medium text-[16px] block text-white">Features</Link>
-          <Link href="#" className="py-3 px-3 font-medium text-[16px] block text-white">Insights</Link>
-          <Link href="#" className="py-3 px-3 font-medium text-[16px] block text-white">FAQ</Link>
+    <Link href="#whygavie" className="py-5 px-3 font-medium text-[16px] block text-white">Why Gavie</Link>
+          <Link href="#features" className="py-3 px-3 font-medium text-[16px] block text-white">Features</Link>
+          <Link href="#insights" className="py-3 px-3 font-medium text-[16px] block text-white">Insights</Link>
+          <Link href="#faqs" className="py-3 px-3 font-medium text-[16px] block text-white">FAQ</Link>
     </div>
      
   </nav>
